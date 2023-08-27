@@ -1,0 +1,58 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url('../img/واجهة.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+header{
+  position: relative;
+  color: rgb(251, 251, 251);
+}
+ul{
+position: absolute; 
+top: 25px;
+right: 30px;
+}
+li{
+display: inline;
+margin-right: 30px;
+}
+a{color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+header p{
+  display: inline;
+}
+span{ color: black ; background-color: rgb(255, 255, 255);font-weight:bolder;} 
+#span1{
+  background-color: red ;color: rgb(255, 255, 255) ;
+}
+
+.c1{display: inline; }
+.b1{margin-left: 80px;}
+section{
+  position: absolute;
+  left:200px ;
+  top: 210px;
+}
+
+.a1{
+  color: red;
+}
+.a2:hover{
+width: 10%;color: red;
+background-color: rgb(251, 255, 255);
+}
+#d1{
+ background: linear-gradient(to left, yellow ,red );
+  position:fixed;
+  bottom:0;
+  left:0;
+  width: 100%;
+}
+h1{color:rgb(255, 235, 59) ;}
